@@ -10,7 +10,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_xj94rmq', 'template_8l8irze', form.current, 'Fg9cl1upJEhz5bV0t',)
+    emailjs.sendForm('service_xj94rmq', 'template_8l8irze', form.current, 'Fg9cl1upJEhz5bV0t')
     e.target.reset()
   };
 
@@ -21,15 +21,15 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className='contact__option'>
-            <MdOutlineMailOutline className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>krava.zf@gmail.com</h5>
+            <FaTelegram className='contact__option-icon'/>
+            <h4>Telegram</h4>
+            <h5>@MaxKravchenkoZf</h5>
             <a
-              href='mailto:krava.zf@gmail.com'
+              href='https://t.me/MaxKravchenkoZf'
               target='_blank'
               rel='noreferrer'
-              >
-                Send a message
+            >
+              Send a message
             </a>
           </article>
           <article className='contact__option'>
@@ -45,22 +45,22 @@ const Contact = () => {
             </a>
           </article>
           <article className='contact__option'>
-            <FaTelegram className='contact__option-icon'/>
-            <h4>Telegram</h4>
-            <h5>@MaxKravchenkoZf</h5>
+            <MdOutlineMailOutline className='contact__option-icon'/>
+            <h4>Email</h4>
+            <h5>krava.zf@gmail.com</h5>
             <a
-              href='https://t.me/MaxKravchenkoZf'
+              href='mailto:krava.zf@gmail.com'
               target='_blank'
               rel='noreferrer'
-            >
-              Send a message
+              >
+                Send a message
             </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Full Name" required/>
-          <input type="email" name="email" placeholder="Your Email" required/>
-          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+          <input type="text" name="name" autoComplete="name" placeholder="Your Full Name" required/>
+          <input type="email" name="email" autoComplete="email" placeholder="Your Email" required/>
+          <textarea name="message" rows="7" autoComplete="message" placeholder="Your Message" required></textarea>
           <button type='submit' className='btn primary'>
             Send Message
           </button>

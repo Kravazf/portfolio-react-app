@@ -89,3 +89,13 @@
   background: var(--color-primary);
   color: var(--color-white);
 }
+
+/* MEDIA QUERIES (phone) */
+@media  screen and (max-width: 600px) {
+  .experiance__details {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 8rem;
+    padding: 1rem 1rem;
+  }
+}

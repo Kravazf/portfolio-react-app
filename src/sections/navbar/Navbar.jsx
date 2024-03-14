@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useMediaQuery } from '@react-hook/media-query';
 import data from './data';
-import MePhoto from '../../assets/myPhoto.jpg'
 import './navbar.css';
 import BtnDarkMode from '../../components/btnDarkMode/BtnDarkMode';
 
@@ -21,7 +20,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav__container">
         <a href='index.html' className='nav__logo' >
-          <img src={MePhoto} alt='MePhoto' />{}
+          WUYP
         </a>
         <ul className='nav__menu'>
           {

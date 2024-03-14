@@ -166,7 +166,7 @@ img {
   background: var(--color-primary);
   /* text color always white that's why i didn't use a variable color */
   color: white;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .btn.primary:hover {

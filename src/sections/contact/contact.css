@@ -18,6 +18,7 @@
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
+  min-width: 200px;
 }
 
 .contact__option:hover {
@@ -37,6 +38,7 @@
 .contact__option a {
   font-size: 0.8rem;
   color: var(--color-dark);
+  filter: drop-shadow(0 0 10px #000) drop-shadow(0 0 20px #000);
 }
 
 /* FORM */

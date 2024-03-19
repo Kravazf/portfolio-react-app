@@ -1,118 +1,121 @@
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
-import { RiReactjsFill } from "react-icons/ri";
-import { SiRedux } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { TbBrandCss3 } from "react-icons/tb";
-import { BsFiletypeScss } from "react-icons/bs";
-import { FaNode } from "react-icons/fa";
-import { SiWebpack } from "react-icons/si";
-import { DiGulp } from "react-icons/di";
-import { FaNpm } from "react-icons/fa";
-import { FaYarn } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { SiMaterialdesign } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
-
+import { IoLogoJavascript } from 'react-icons/io5';
+import {
+  SiTypescript,
+  SiRedux,
+  SiWebpack,
+  SiMaterialdesign,
+} from 'react-icons/si';
+import { RiReactjsFill } from 'react-icons/ri';
+import {
+  FaHtml5,
+  FaNode,
+  FaNpm,
+  FaYarn,
+  FaGitAlt,
+  FaGithub,
+  FaBootstrap,
+} from 'react-icons/fa';
+import { TbBrandCss3 } from 'react-icons/tb';
+import { BsFiletypeScss } from 'react-icons/bs';
+import { DiGulp } from 'react-icons/di';
 
 const data = [
   {
     id: 1,
     title: 'JAVA SCRIPT',
     desc: 'experiaced',
-    icon: <IoLogoJavascript />
+    icon: <IoLogoJavascript />,
   },
   {
     id: 2,
     title: 'TYPE SCRIPT',
     desc: 'intermediate',
-    icon: <SiTypescript />
+    icon: <SiTypescript />,
   },
   {
     id: 3,
     title: 'REACT.JS',
     desc: 'experiaced',
-    icon: <RiReactjsFill />
+    icon: <RiReactjsFill />,
   },
   {
     id: 4,
     title: 'REDUX',
     desc: 'intermediate',
-    icon: <SiRedux />
+    icon: <SiRedux />,
   },
   {
     id: 5,
     title: 'HTML5',
     desc: 'experiaced',
-    icon: <FaHtml5 />
+    icon: <FaHtml5 />,
   },
   {
     id: 6,
     title: 'CSS3',
     desc: 'experiaced',
-    icon: <TbBrandCss3 />
+    icon: <TbBrandCss3 />,
   },
   {
     id: 7,
     title: 'SCSS',
     desc: 'experiaced',
-    icon: <BsFiletypeScss />
+    icon: <BsFiletypeScss />,
   },
   {
     id: 8,
     title: 'NODE.JS',
     desc: 'intermediate',
-    icon: <FaNode />
+    icon: <FaNode />,
   },
   {
     id: 9,
     title: 'WEBPACK',
     desc: 'intermediate',
-    icon: <SiWebpack />
+    icon: <SiWebpack />,
   },
   {
     id: 10,
     title: 'GULP',
     desc: 'intermediate',
-    icon: <DiGulp />
+    icon: <DiGulp />,
   },
   {
     id: 11,
     title: 'NPM',
     desc: 'experiaced',
-    icon: <FaNpm />
+    icon: <FaNpm />,
   },
   {
     id: 12,
     title: 'YARN',
     desc: 'intermediate',
-    icon: <FaYarn />
+    icon: <FaYarn />,
   },
   {
     id: 13,
     title: 'GIT',
     desc: 'experiaced',
-    icon: <FaGitAlt />
+    icon: <FaGitAlt />,
   },
   {
     id: 14,
     title: 'GITHUB',
     desc: 'experiaced',
-    icon: <FaGithub />
+    icon: <FaGithub />,
   },
   {
     id: 15,
     title: 'MATEIAL UI',
     desc: 'experiaced',
-    icon: <SiMaterialdesign />
+    icon: <SiMaterialdesign />,
   },
   {
     id: 16,
     title: 'BOOTSTRAP',
     desc: 'experiaced',
-    icon: <FaBootstrap />
-  }
-]
+    icon: <FaBootstrap />,
+  },
+];
 
 export default data;

@@ -8,9 +8,9 @@ const Navbar = () => {
   const [activeNav, setActivNav] = useState('#');
 
   const isMobile = useMediaQuery('(max-width: 1024px)');
-  const renderContent = (item) => {
-    return isMobile ? item.icon : item.title;
-  };
+  const renderContent = (item) => (
+    isMobile ? item.icon : item.title
+  );
 
   const handleClick = (link) => {
     setActivNav(link);
@@ -24,18 +24,22 @@ const Navbar = () => {
         </a>
         <ul className='nav__menu'>
           {
-            data.map(item => 
+            data.map((item) => (
               <li key={item.id}>
-                <a href={item.link} className={activeNav === item.link ? 'active' : ''} onClick={() => handleClick(item.link)}>
+                <a
+                  href={item.link}
+                  className={activeNav === item.link ? 'active' : ''}
+                  onClick={() => handleClick(item.link)}
+                >
                   {renderContent(item)}
                 </a>
               </li>
-          )}
+            ))}
         </ul>
         <BtnDarkMode />
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;

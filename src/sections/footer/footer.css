@@ -26,6 +26,7 @@ footer {
 
 .permalinks li a:hover {
   filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+  text-decoration: underline;
 }
 
 .footer__socials {

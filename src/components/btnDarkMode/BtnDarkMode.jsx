@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import { useLocalStorage } from "./../../utils/useLocalStorage";
+import { BsSun } from 'react-icons/bs';
+import { FaMoon } from 'react-icons/fa';
+import { useLocalStorage } from '../../utils/useLocalStorage';
 import detectDarkMode from '../../utils/detectDarkMode';
-import { BsSun } from "react-icons/bs";
-import { FaMoon } from "react-icons/fa";
 import './btnDarkMode.css';
 
 const BtnDarkMode = () => {

@@ -37,9 +37,9 @@
 .dark {
   --black-lightness: 5%;
   --dark-lightness: 10%;
-  --light-lightness: 30%;
-  --white-lightness: 80%;
-  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  --light-lightness: 75%;
+  --white-lightness: 90%;
+  --color-primary: hsl(var(--primary-hue), 89%, 54%);
   --color-white: hsl(0, 5%, var(--white-lightness));
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));

@@ -1,10 +1,9 @@
-import {AiOutlineInstagram} from 'react-icons/ai';
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+
 import './footer.css';
 
-const Footer = () => {
-  return (
+const Footer = () => (
     <footer>
       <footer>
         <a href='#' className='footer__logo'>
@@ -43,7 +42,6 @@ const Footer = () => {
         </div>
       </footer>
     </footer>
-  )
-}
+);
 
 export default Footer;

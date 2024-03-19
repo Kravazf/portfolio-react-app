@@ -1,0 +1,45 @@
+#portfolio h2 {
+  margin-bottom: 3rem;
+}
+
+.swiper {
+  padding-bottom: 50px;
+  width: 90%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  min-height: 400px;
+  border-bottom: 2px solid var(--color-dark);
+  border-radius: var(--border-radius-1);
+}
+
+.swipper__card {
+  border-radius: var(--border-radius-1);
+}
+
+.swipper__card:hover {
+  border-color: transparent;
+  background-color: var(--color-white);
+}
+
+.swiper-slide img {
+  margin-bottom: 2rem;
+  min-height: 20vh;
+}
+
+.swipper.card__action {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 28px;
+}
+
+.swiper.modal__card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

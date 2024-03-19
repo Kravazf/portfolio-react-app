@@ -41,6 +41,11 @@
   filter: drop-shadow(0 0 10px #000) drop-shadow(0 0 20px #000);
 }
 
+.contact__option a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 /* FORM */
 form {
   display: flex;

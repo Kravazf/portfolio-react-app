@@ -21,10 +21,12 @@
 	border-radius: 50%;
 	background-color: lightslategray;
 	transition: left 0.2s ease-in;
+	filter: drop-shadow(0 0 10px #fcf700) drop-shadow(0 0 20px #fcf700);
 }
 
 .dark-mode-btn__active::before {
-	left: 33px;
+	left: 34px;
+	filter: drop-shadow(0 0 10px aqua) drop-shadow(0 0 20px aqua);
 }
 
 .dark-mode-btn__icon {
@@ -35,5 +37,5 @@
 }
 
 .moon {
-  color: rgb(27, 31, 146);
+  color: aqua;
 }

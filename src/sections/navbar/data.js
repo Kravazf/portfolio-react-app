@@ -1,39 +1,42 @@
-import { AiOutlineHome } from "react-icons/ai";
-import { FaUserAstronaut } from "react-icons/fa";
-import { RiServiceLine } from "react-icons/ri";
-import { FaBriefcase } from "react-icons/fa";
-import { BiMessageSquareDetail } from "react-icons/bi";
+import { AiOutlineHome } from 'react-icons/ai';
+import {
+  FaUserAstronaut,
+  FaBriefcase,
+} from 'react-icons/fa';
+import { RiServiceLine } from 'react-icons/ri';
+import { BiMessageSquareDetail } from 'react-icons/bi';
+
 const data = [
   {
     id: 1,
     link: '#',
     title: 'Home',
-    icon: <AiOutlineHome />
+    icon: <AiOutlineHome />,
   },
   {
     id: 2,
     link: '#about',
     title: 'About',
-    icon: <FaUserAstronaut />
+    icon: <FaUserAstronaut />,
   },
   {
     id: 3,
     link: '#experiance',
     title: 'Experiance',
-    icon: <RiServiceLine />
+    icon: <RiServiceLine />,
   },
   {
     id: 4,
     link: '#portfolio',
     title: 'Portfolio',
-    icon: <FaBriefcase />
+    icon: <FaBriefcase />,
   },
   {
     id: 5,
     link: '#contact',
     title: 'Contact',
-    icon: <BiMessageSquareDetail />
-  }
-]
+    icon: <BiMessageSquareDetail />,
+  },
+];
 
 export default data;

@@ -5,6 +5,7 @@ const getStorageValue = (key, defaultValue) => {
     const saved = localStorage.getItem(key);
     return saved ? JSON.parse(saved) : defaultValue;
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error(`Error getting value for key "${key}" from localStorage:`, error);
     return defaultValue;
   }
@@ -17,6 +18,7 @@ export const useLocalStorage = (key, defaultValue) => {
     try {
       localStorage.setItem(key, JSON.stringify(value));
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.error(`Error setting value for key "${key}" in localStorage:`, error);
     }
   }, [key, value]);

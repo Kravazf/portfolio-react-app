@@ -38,6 +38,11 @@ nav {
   border-radius: var(--border-radius-2);
 }
 
+.nav__menu a:hover {
+  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+  text-decoration: underline;
+}
+
 .nav__menu a.active {
   background: rgba(0, 0, 0, 0.3);
   font-weight: 600;

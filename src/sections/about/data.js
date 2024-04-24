@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     icon: <FaAward />,
-    title: 'Experiance',
+    title: 'Experienced',
     desc: '1+ Years Working',
   },
   {

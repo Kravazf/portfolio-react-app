@@ -23,7 +23,7 @@ const data = [
   {
     id: 1,
     title: 'JAVA SCRIPT',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <IoLogoJavascript />,
   },
   {
@@ -35,7 +35,7 @@ const data = [
   {
     id: 3,
     title: 'REACT.JS',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <RiReactjsFill />,
   },
   {
@@ -47,19 +47,19 @@ const data = [
   {
     id: 5,
     title: 'HTML5',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <FaHtml5 />,
   },
   {
     id: 6,
     title: 'CSS3',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <TbBrandCss3 />,
   },
   {
     id: 7,
     title: 'SCSS',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <BsFiletypeScss />,
   },
   {
@@ -83,7 +83,7 @@ const data = [
   {
     id: 11,
     title: 'NPM',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <FaNpm />,
   },
   {
@@ -95,25 +95,25 @@ const data = [
   {
     id: 13,
     title: 'GIT',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <FaGitAlt />,
   },
   {
     id: 14,
     title: 'GITHUB',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <FaGithub />,
   },
   {
     id: 15,
     title: 'MATEIAL UI',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <SiMaterialdesign />,
   },
   {
     id: 16,
     title: 'BOOTSTRAP',
-    desc: 'experiaced',
+    desc: 'experienced',
     icon: <FaBootstrap />,
   },
 ];

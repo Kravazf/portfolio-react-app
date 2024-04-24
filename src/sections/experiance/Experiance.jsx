@@ -5,7 +5,7 @@ import Card from '../../components/card/Card';
 const Experiance = () => (
     <section id="experiance">
       <h5>What Skills I Have</h5>
-      <h2>My Experiance</h2>
+      <h2>My Experience</h2>
         <div className='experiance__frontend'>
         <h3>Front-End Development</h3>
           <div className="experiance__content">

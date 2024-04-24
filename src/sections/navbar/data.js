@@ -22,7 +22,7 @@ const data = [
   {
     id: 3,
     link: '#experiance',
-    title: 'Experiance',
+    title: 'Experience',
     icon: <RiServiceLine />,
   },
   {

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.f1f2aef0.css",
-    "main.js": "/portfolio-react-app/static/js/main.2cdac78f.js",
+    "main.js": "/portfolio-react-app/static/js/main.17aba4a1.js",
     "static/media/cv-Maks-Kravchenko.pdf": "/portfolio-react-app/static/media/cv-Maks-Kravchenko.fbeadf5d275bc867c88d.pdf",
     "static/media/myPhoto.jpg": "/portfolio-react-app/static/media/myPhoto.488c978e6003a26e8951.jpg",
     "static/media/wheather-app.png": "/portfolio-react-app/static/media/wheather-app.9c6f23d873468b6f7603.png",
@@ -9,10 +9,10 @@
     "static/media/quiz-tesk-task.png": "/portfolio-react-app/static/media/quiz-tesk-task.4242143f8fce76e0ee0d.png",
     "index.html": "/portfolio-react-app/index.html",
     "main.f1f2aef0.css.map": "/portfolio-react-app/static/css/main.f1f2aef0.css.map",
-    "main.2cdac78f.js.map": "/portfolio-react-app/static/js/main.2cdac78f.js.map"
+    "main.17aba4a1.js.map": "/portfolio-react-app/static/js/main.17aba4a1.js.map"
   },
   "entrypoints": [
     "static/css/main.f1f2aef0.css",
-    "static/js/main.2cdac78f.js"
+    "static/js/main.17aba4a1.js"
   ]
 }

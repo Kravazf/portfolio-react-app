@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.f1f2aef0.css",
-    "main.js": "/portfolio-react-app/static/js/main.9d03c0fb.js",
+    "main.js": "/portfolio-react-app/static/js/main.20692f15.js",
     "static/media/Travel.png": "/portfolio-react-app/static/media/Travel.1bff09fd72c95a3070cb.png",
-    "static/media/cv-Maks-Kravchenko.pdf": "/portfolio-react-app/static/media/cv-Maks-Kravchenko.fbeadf5d275bc867c88d.pdf",
+    "static/media/cv-Maks-Kravchenko.pdf": "/portfolio-react-app/static/media/cv-Maks-Kravchenko.22d0d236a1f32004fa9c.pdf",
     "static/media/myPhoto.jpg": "/portfolio-react-app/static/media/myPhoto.488c978e6003a26e8951.jpg",
     "static/media/wheather-app.png": "/portfolio-react-app/static/media/wheather-app.9c6f23d873468b6f7603.png",
     "static/media/nike.png": "/portfolio-react-app/static/media/nike.ff356dc2b461b7afb7b1.png",
@@ -11,10 +11,10 @@
     "static/media/quiz-tesk-task.png": "/portfolio-react-app/static/media/quiz-tesk-task.4242143f8fce76e0ee0d.png",
     "index.html": "/portfolio-react-app/index.html",
     "main.f1f2aef0.css.map": "/portfolio-react-app/static/css/main.f1f2aef0.css.map",
-    "main.9d03c0fb.js.map": "/portfolio-react-app/static/js/main.9d03c0fb.js.map"
+    "main.20692f15.js.map": "/portfolio-react-app/static/js/main.20692f15.js.map"
   },
   "entrypoints": [
     "static/css/main.f1f2aef0.css",
-    "static/js/main.9d03c0fb.js"
+    "static/js/main.20692f15.js"
   ]
 }
